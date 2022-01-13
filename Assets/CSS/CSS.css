@@ -403,13 +403,6 @@ section{
     margin-bottom: var(--mb-2-5);
 }
 
-.about_buttons{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
 /*==================== MY JOURNEY ====================*/
 .experience_container{
     max-width: 600px;
