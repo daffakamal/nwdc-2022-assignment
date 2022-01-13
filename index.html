@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="Assets/JavaScript/swiper-bundle.min.js">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="Assets/CSS/CSS.css">
+
+        <title>Daffa K.'s Personal Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav_logo">Daffa K.</a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list grid">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link">
+                                <i class="uil uil-home nav_icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">
+                                <i class="uil uil-user-circle nav_icon"></i> About Me
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#experience" class="nav_link">
+                                <i class="uil uil-notebooks nav_icon"></i> My Journey
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#contact" class="nav_link">
+                                <i class="uil uil-location-arrow nav_icon"></i> Contact Me
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-x nav_close" id="nav-close"></i>
+                </div>
+                <div class="nav_buttons">
+                    <i class="uil uil-moon-eclipse change-theme" id="theme-button"></i>
+                    <div class="nav_toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div class="home_content grid">
+                        <div class="home_social">
+                            <a href="https://www.linkedin.com/" target="_blank" class="home_social-icon">
+                                <i class="uil uil-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/" target="_blank" class="home_social-icon">
+                                <i class="uil uil-github"></i>
+                            </a>
+                        </div>
+                        <div class="home_img">
+                            <svg class="home_blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home_blob-img" x='-19' y='-60' xlink:href="Assets/Image/145425.jpg"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home_data">
+                            <h1 class="home_title">Hi, I'm Daffa</h1>
+                            <h3 class="home_subtitle">A person who is interested in web development.</h3>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me<i class="uil uil-location-arrow nav_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home_scroll">
+                        <a href="#about" class="home_scroll-button button--flex">
+                            <span class="home_scroll-name">Scroll down</span>
+                            <i class="uil uil-angle-down home_scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section_title">About Me</h2>
+                <span class="section_subtitle">Let me introduce myself</span>
+
+                <div class="about_container container grid">
+                    <img src="Assets/Image/145425.jpg" alt="" class="about_img">
+
+                    <div class="about_data">
+                        <p class="about_description">My name is Daffa Kamal, you can call me Daffa. I live in Yogyakarta, Indonesia. I'm currently taking my bachelor's degree in information technology. I'm also learning HTML, CSS, JavaScript, and Next.js. In the future, I want to become a website developer :)</p>
+                        <div class="about_buttons">
+                            <a download="" href="Assets/CV/CV_Daffa Kamal.pdf" class="button button--flex">
+                                Download CV<i class="uil uil-import button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== MY JOURNEY ====================-->
+            <!-- Nama class nya belum diubah ke journey atau myjourney karena awalnya belum kepikiran kalo isinya ada education, experience, dan the next journey. Awalnya, bagian My Journey itu Experience, 
+                tapi akhirnya saya ganti namanya jadi My Journey. Karena lumayan banyak yang harus diganti, misal "experience_container" jadi "myjourney_container" dll, untuk sementara
+                nama class nya belum saya ubah -->
+
+            <section class="experience section" id="experience">
+                <h2 class="section_title">My Journey</h2>
+                <span class="section_subtitle">This is my journey so far</span>
+
+                <div class="experience_container container">
+                    <div class="experience_tabs">
+                        <div class="experience_button button--flex experience_active" data-target='#education'>
+                            <i class="uil uil-book-open experience_icon"></i>
+                            Education
+                        </div>
+
+                        <div class="experience_button button--flex" data-target='#experiences'>
+                            <i class="uil uil-award-alt experience_icon"></i>
+                            Experience
+                        </div>
+
+                        <div class="experience_button button--flex" data-target='#nextjourney'>
+                            <i class="uil uil-map experience_icon"></i>
+                            The Next Journey
+                        </div>
+                    </div>
+
+                    <div class="experience_section">
+                        <!--==================== MY JOURNEY CONTENT 1====================-->
+                        <div class="experience_content experience_active" data-content id="education">
+                            <!--==================== EDUCATION 1====================-->
+                            <div class="experience_data">
+                                <div></div>
+
+                                <div>
+                                    <span class="experience_rounder"></span>
+                                    <span class="experience_line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="experience_title">SMPN 8 Yogyakarta</h3>
+                                    <span class="experience_subtitle">Junior High School</span>
+                                    <div class="experience_calendar">
+                                        <i class="uil uil-schedule"></i>
+                                        2015 - 2018
+                                    </div>
+                                </div>
+                            </div>
+                            <!--==================== EDUCATION 2====================-->
+                            <div class="experience_data">
+                                <div>
+                                    <h3 class="experience_title">SMAN 1 Pakem</h3>
+                                    <span class="experience_subtitle">Senior High School</span>
+                                    <div class="experience_calendar">
+                                        <i class="uil uil-schedule"></i>
+                                        2018 - 2021
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="experience_rounder"></span>
+                                    <span class="experience_line"></span>
+                                </div>
+                            </div>
+                            <!--==================== EDUCATION 3====================-->
+                            <div class="experience_data">
+                                <div></div>
+
+                                <div>
+                                    <span class="experience_rounder"></span>
+                                    <span class="experience_line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="experience_title">SRIT Tokyo</h3>
+                                    <span class="experience_subtitle">Senior High School</span>
+                                    <div class="experience_calendar">
+                                        <i class="uil uil-schedule"></i>
+                                        2018 - 2019
+                                    </div>
+                                </div>
+                            </div>
+                            <!--==================== EDUCATION 4====================-->
+                            <div class="experience_data">
+                                <div>
+                                    <h3 class="experience_title">Bachelor of Engineering, Information Technology at UGM</h3>
+                                    <span class="experience_subtitle">Bachelor's Degree</span>
+                                    <div class="experience_calendar">
+                                        <i class="uil uil-schedule"></i>
+                                        2021 - now
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="experience_rounder"></span>
+                                    <!--<span class="experience_line"></span>-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== MY JOURNEY CONTENT 2====================-->
+                        <div class="experience_content" data-content id="experiences">
+                            <!--==================== EXPERIENCE 1====================-->
+                            <div class="experience_data">
+                                <div></div>
+
+                                <div>
+                                    <span class="experience_rounder"></span>
+                                    <span class="experience_line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="experience_title">Progate Coding Bootcamp X KMTETI FT UGM</h3>
+                                    <span class="experience_subtitle">Indonesia</span>
+                                    <div class="experience_calendar">
+                                        <i class="uil uil-schedule"></i>
+                                        2021
+                                    </div>
+                                </div>
+                            </div>
+                            <!--==================== EXPERIENCE 2====================-->
+                            <div class="experience_data">
+                                <div>
+                                    <h3 class="experience_title">Web Developer</h3>
+                                    <span class="experience_subtitle">Technocorner UGM</span>
+                                    <div class="experience_calendar">
+                                        <i class="uil uil-schedule"></i>
+                                        2021 - now
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="experience_rounder"></span>
+                                    <!--<span class="experience_line"></span>-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== MY JOURNEY CONTENT 3====================-->
+                        <div class="experience_content" data-content id="nextjourney">
+                            <p>I'm interested in web development and its tech stack. I'm not only interested in those things, 
+                                but I also want to learn more about the tech stack I'm currently learning. Also, I want to expand 
+                                my connections and friends in the NWDC community and Night Login. Listening to their experiences and learning from 
+                                them about web development or other things is what motivates me to join NWDC.
+                            </p>
+                            </br>
+                            <p>I think joining NWDC will be really fun and exciting. Getting to know people who have the same interest will always be fun. 
+                                I want to get the experience of making a website together with other people. In the other hand, I hope that I can improve 
+                                my soft skills and hard skills by joining the NWDC community.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section_title">Contact Me</h2>
+                <span class="section_subtitle">Feel free to reach me</span>
+
+                <div class="contact_container container grid">
+                    <div>
+                        <div class="contact_information">   
+                            <a href="https://mail.google.com/" target="_blank">
+                                <i class="uil uil-envelope-alt contact_icon"></i>
+                            </a>
+                            <div>
+                                <h3 class="contact_title">Gmail</h3>
+                                <span class="contact_subtitle">dvffvkml7@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact_information">   
+                            <a href="https://www.linkedin.com/in/daffa-kamal-606973221/" target="_blank">
+                                <i class="uil uil-linkedin contact_icon"></i>
+                            </a>
+                            <div>
+                                <h3 class="contact_title">LinkedIn</h3>
+                                <span class="contact_subtitle">Daffa Kamal</span>
+                            </div>
+                        </div>
+
+                        <div class="contact_information">   
+                            <a href="https://github.com/wannabegooddevv" target="_blank">
+                                <i class="uil uil-github contact_icon"></i>
+                            </a>
+                            <div>
+                                <h3 class="contact_title">GitHub</h3>
+                                <span class="contact_subtitle">wannabegooddevv</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer_bg">
+                <div class="footer_container container grid">
+              
+                        <h1 class="footer_title">Daffa K.</h1>
+                        <span class="footer_subtitle">My very first personal website</span>
+                 
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#about" class="footer_link">About Me</a>   
+                           </li>
+                        <li>
+                         <a href="#experience" class="footer_link">My Journey</a>   
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer_link">Contact Me</a>   
+                        </li>
+                    </ul>
+                </div>
+                <p class="footer_copy">I make this portfolio website from Bedimcode on Youtube</p>
+            </div>
+            
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="Assets/JavaScript/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="Assets/JavaScript/JS.js"></script>
+    </body>
+</html>
