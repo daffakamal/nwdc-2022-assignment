@@ -1,4 +1,4 @@
-/*==================== MENU SHOW Y HIDDEN ====================*/
+/*==================== MENU SHOW and HIDDEN ====================*/
 const nav_menu = document.getElementById('nav-menu')
 const nav_toggle = document.getElementById('nav-toggle')
 const nav_close = document.getElementById('nav-close')
@@ -28,9 +28,6 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*==================== ACCORDION SKILLS ====================*/
-
-
 /*==================== EXPERIENCE TABS ====================*/
 const tabs = document.querySelectorAll('[data-target]'),
         tabContents = document.querySelectorAll('[data-content]')
@@ -50,23 +47,6 @@ tabs.forEach(tab =>{
         tab.classList.add('experience_active')
     })
 })
-/*==================== SERVICES MODAL ====================*/
-
-
-/*==================== PORTFOLIO SWIPER  ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
-
-
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
-
-
-/*==================== CHANGE BACKGROUND HEADER ====================*/ 
-
-
-/*==================== SHOW SCROLL UP ====================*/ 
-
 
 /*==================== DARK LIGHT THEME ====================*/ 
 const themeButton = document.getElementById('theme-button')
