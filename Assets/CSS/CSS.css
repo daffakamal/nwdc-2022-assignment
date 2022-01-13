@@ -435,6 +435,11 @@ section{
     column-gap: 1.5rem;
 }
 
+.nextjourney_title{
+    font-weight: bold;
+    margin-left: 100px;
+}
+
 .experience_content p{
     text-align: justify;
     text-indent: 51px;
