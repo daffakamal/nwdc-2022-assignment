@@ -437,7 +437,11 @@ section{
 
 .nextjourney_title{
     font-weight: bold;
-    margin-left: 100px;
+    color: var(--text-color-light);
+    font-size: var(--normal-font-size);
+    padding: 0%;
+    margin: 0% 10%;
+    text-align: center;
 }
 
 .experience_content p{
@@ -630,6 +634,16 @@ section{
     .footer_title{
         font-size: 2rem;
     }
+
+    .experience_button{
+        font-size: var(--small-font-size);
+        margin-right: 0.8rem;
+    }
+
+    .experience_icon{
+        font-size: 1.5rem;
+        ;
+    }
 }
 
 @media screen and (min-width: 350px){
@@ -651,6 +665,21 @@ section{
 
     body{
         margin: 0 0 3rem 0;
+    }
+
+    .experience_button{
+        font-size: var(--normal-font-size);
+        margin-right: 1rem;
+    }
+
+    .experience_icon{
+        font-size: 1.5rem;
+    }
+
+    .nextjourney_title{
+        padding: 0%;
+        margin: 0% 10%;
+        text-align: center;
     }
 }
 /* For medium devices */
@@ -697,6 +726,20 @@ section{
 
     .home_scroll-button{
         margin-left: 3rem;
+    }
+
+    .experience_container{
+        max-width: 768px;
+    }
+
+    .experience_button{
+        font-size: var(--h3-font-size);
+        font-weight: var(--font-medium);
+    }
+
+    .experience_icon{
+        font-size: 1.8rem;
+        margin-right: var(--mb-0-25);
     }
 }
 
@@ -791,6 +834,10 @@ section{
 
     .about_buttons{
         justify-content: initial;
+    }
+
+    .experience_container{
+        max-width: 600px;
     }
 
     .experience_tabs{
